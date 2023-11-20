@@ -32,8 +32,8 @@
     ```
 
 1. Create a port forwarding rule 22->2222 in VirtualBox. There's no need to set the IP addresses.
-2. 
-1. Create a port forwarding rule X->X for each port you use in development (e.g. 8080, 8000, 5000 and 3000). There's no need to set the IP addresses.
+   
+1. Create a port forwarding rule X->X for each port you use in development (e.g. 8080, 8000, 5000 and 3000). There's no need to set the IP addresses. Make sure you run `sudo ufw allow <port>` for each one.
 
 1. Generate and set the SSH key in Windows
 
